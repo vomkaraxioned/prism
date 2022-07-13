@@ -229,8 +229,8 @@ li {
 .title {
   width: 28%;
   max-height: 150px;
-  margin: 174px 0;
   border-right: 1px solid #696969;
+  margin: 174px 0;
   display: inline-block;
   color: #ffffff;
   font-size: xx-large;
@@ -268,8 +268,8 @@ li {
 /*banner ends here*/
 /*section starts here */
 .facility {
-  text-align: center;
   border-bottom: 1px solid #696969;
+  text-align: center;
 }
 
 h1 {
@@ -320,7 +320,7 @@ h1 {
   display: block;
   font-size: small;
   text-transform: capitalize;
-  list-style-image: url(/assets/images/check.png);
+  list-style-image: url('/assets/images/check.png');
 
 }
 
@@ -402,7 +402,9 @@ figure {
 .contact_form {
   width: 40%;
   max-height: 377px;
-  display: inline-block;
+  margin: 40px 0;
+  display: block;
+  float: inline-start;
 
 }
 
@@ -418,10 +420,12 @@ h2 {
 }
 
 .contact_links {
-  width: 42%;
+  width: 40%;
   max-height: 377px;
-  margin-bottom: 190px;
-  display: inline-block;
+  margin-right: 5%;
+  display: block;
+  float:right;
+ 
 }
 
 .input_fname,
@@ -505,16 +509,17 @@ h2 {
 }
 
 .contact_form p {
-  font-size: small;
   margin: 35px 0;
+  color: #696969;
+  font-size: small;
 }
 
 .contact_links {
   width: 40%;
   max-height: 377px;
-  margin-bottom: 190px;
   margin-right: 5%;
   display: inline-block;
+  
 }
 
 .input_fname,
@@ -563,6 +568,9 @@ input[type=button] {
   max-height: 77px;
   padding: 50px 0;
   border-top: 1px solid #808080;
+  background-color: #ffffff;
+  color:#808080;
+  font-size: small;
   text-align: center;
 }
 
@@ -598,7 +606,7 @@ input[type=button]:hover {
 .twitter{
   font-family: "Font Awesome 5 Brands";
   font-weight: 900;
-   content: "\f099";
+  content: "\f099";
 
 }
 /*icon ends here*/
