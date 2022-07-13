@@ -600,15 +600,6 @@ input[type=button]:hover {
 .icon{
   text-indent: -9999px;
 }
-.icon::before{
-  display: inline-block;
-}
-.twitter{
-  font-family: "Font Awesome 5 Brands";
-  font-weight: 900;
-  content: "\f099";
-
-}
 /*icon ends here*/
 
 /*media query starts*/
