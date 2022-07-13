@@ -221,14 +221,12 @@ li {
 /*banner start here*/
 .bg_color {
   width: 100%;
-  max-height: 381px;
   background-image: linear-gradient(to right, #554876, #7a3e7a);
   text-align: center;
 }
 
 .title {
-  width: 28%;
-  max-height: 150px;
+  width: 28%;;
   border-right: 1px solid #696969;
   margin: 174px 0;
   display: inline-block;
@@ -244,18 +242,17 @@ li {
 
 .information {
   width: 28%;
-  max-height: 150px;
-  margin: 174px 2%;
+  margin: 174px 0;
   display: inline-block;
   color: #808080;
-  font-size: 13px;
+  font-size: 12px;
   text-align: left;
 
 }
 
 .btn_title {
-  width: 25%;
-  padding: 10px 5%;
+  width: 30%;
+  padding: 10px 3%;
   border-radius: 40px;
   margin-top: 20px;
   display: block;
@@ -279,7 +276,6 @@ h1 {
 
 .description {
   width: 35%;
-  max-height: 214px;
   border-right: 1px solid #696969;
   margin: 62px 2%;
   display: inline-block;
@@ -294,8 +290,8 @@ h1 {
 }
 
 .btn_section {
-  width: 20%;
-  padding: 10px 5%;
+  width: 30%;
+  padding: 10px 3%;
   border: 1px solid #696969;
   border-radius: 40px;
   display: block;
@@ -307,7 +303,6 @@ h1 {
 
 .service {
   width: 35%;
-  max-height: 214px;
   margin: 62px 2%;
   display: inline-block;
   color: #808080;
@@ -337,7 +332,6 @@ h1 {
 }
 
 .article_item {
-  max-height: 296px;
   margin: 40px 0;
 }
 
@@ -371,8 +365,8 @@ figure {
 }
 
 .btn_article_item {
-  width: 10%;
-  padding: 5px 5%;
+  width: 20%;
+  padding: 5px 3%;
   border: 1px solid #808080;
   border-radius: 40px;
   margin: 0 0 30px 7%;
@@ -401,7 +395,6 @@ figure {
 
 .contact_form {
   width: 40%;
-  max-height: 377px;
   margin: 40px 0;
   display: block;
   float: inline-start;
@@ -421,7 +414,6 @@ h2 {
 
 .contact_links {
   width: 40%;
-  max-height: 377px;
   margin-right: 5%;
   display: block;
   float:right;
@@ -439,7 +431,8 @@ input {
   padding: 5px 4%;
 }
 
-textarea {
+.input_txtarea {
+  width:100%;
   margin: 24px 0;
 }
 
@@ -465,7 +458,6 @@ input[type=button] {
 
 .copyright {
   width: 100%;
-  max-height: 77px;
   padding: 50px 0;
   background-color: #808080;
   text-align: center;
@@ -493,7 +485,6 @@ a {
 
 .contact_form {
   width: 40%;
-  max-height: 377px;
   border-right: 1px solid #696969;
   margin-left: 7%;
   display: inline-block;
@@ -516,35 +507,39 @@ h2 {
 
 .contact_links {
   width: 40%;
-  max-height: 377px;
   margin-right: 5%;
   display: inline-block;
   
 }
+form{
+  max-width: 80%;
+}
 
 .input_fname,
 .input_email {
-  width: 40%;
   display: inline-block;
-  margin-right: 5%;
+  margin:0 3%;
 }
 
 input {
-  padding: 5px 4%;
+  width:100%;
+  padding: 5px ;
 }
 
 textarea {
+  width: 100%;
   margin: 24px 0;
 }
 
 input[type=button] {
-  width: 30%;
+  width: 40%;
   padding: 10px 5%;
   border: 1px solid #000000;
   border-radius: 40px;
   display: block;
   background-color: #ffffff;
   color: #000000;
+  font-size: small;
   text-align: center;
   text-transform: capitalize;
 }
@@ -565,7 +560,6 @@ input[type=button] {
 }
 
 .copyright {
-  max-height: 77px;
   padding: 50px 0;
   border-top: 1px solid #808080;
   background-color: #ffffff;
