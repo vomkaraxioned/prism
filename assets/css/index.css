@@ -222,15 +222,15 @@ li {
 .bg_color {
   width: 100%;
   display: flex;
-  justify-content: center;
   background-image: linear-gradient(to right, #554876, #7a3e7a);
+  justify-content: center;
 
 }
 
 .title {
-  width: 28%;;
-  border-right: 1px solid #696969;
+  width: 28%;
   padding:0 2% 0 0;
+  border-right: 1px solid #696969;
   margin: 174px 0 79px 0;
   color: #fff;
   font-size: 32px;
@@ -278,9 +278,9 @@ li {
 }
 
 h2 {
+  margin:  2px 0;
   color: #5c5c5c;
   font-size: 16px;
-  margin:  2px 0;
 }
 
 .description {
@@ -511,9 +511,6 @@ input[type=button] {
   text-align: left;
 }
 
-.contact_links span {
-  text-indent: -9999%;
-}
 
 .copyright {
   padding: 50px 0;
