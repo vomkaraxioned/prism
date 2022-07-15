@@ -208,19 +208,20 @@ figure{
 }
 img{
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 .card-info{
+  box-sizing: border-box;
   width: 60%;
   padding: 73px 40px;
   display: inline-block;
+  box-shadow: 0 1px #cdcdcd;
 }
 .card{
   padding: 0 0 40px 0;
   display: flex;
   background-color: #e5e5e5;
   justify-content: center;
-  box-shadow: 0 1px #cdcdcd;
 }
 .card-title{
   color: #5c5c5c;
