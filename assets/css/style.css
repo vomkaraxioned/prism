@@ -127,12 +127,13 @@ li {
 }
 .title{
   width: 50%;
-  padding:0 65px 0 0;
+  padding:0 55px 0 0;
   display: inline-block;
   color: #e5e5e5;
   font-size: 31px;
   font-weight: 900;
-  box-shadow: 2px 0 #644b72;
+  text-align: justify;
+  box-shadow: 1px 0 #644b72;
   line-height: 1.4;
   
 }
@@ -142,7 +143,7 @@ li {
 }
 .about{
   width: 50%;
-  padding:0 0 0 5%;
+  padding:0 0 0 6%;
   display: inline-block;
 }
 .about-us{
