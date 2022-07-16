@@ -127,12 +127,12 @@ li {
 }
 .title{
   width: 50%;
-  padding:0 55px 0 0;
+  padding:0 5% 0 0;
   display: inline-block;
   color: #e5e5e5;
-  font-size: 31px;
-  font-weight: 900;
-  text-align: justify;
+  font-size: 31.2px;
+  font-weight: 600;
+  text-align: left;
   box-shadow: 1px 0 #644b72;
   line-height: 1.4;
   
@@ -143,7 +143,7 @@ li {
 }
 .about{
   width: 50%;
-  padding:0 0 0 6%;
+  padding:0 0 0 4.2%;
   display: inline-block;
 }
 .about-us{
@@ -155,10 +155,11 @@ li {
 
 }
 .title-btn{
-  width:32%;
+  width:30%;
   background-color: #42aa7d;
   color: #e5e5e5;
   font-size: 10px;
+  font-weight: 600;
   text-transform: uppercase;
 }
 /*info starts here*/
@@ -187,17 +188,23 @@ li {
   width:28%;
   border: 1px solid #cdcdcd;
 }
+/*info ends here*/
 .facility{
   width: 50%;
   display: inline-block;
 }
-
+.services{
+  padding: 8px 0;
+}
 .service{
-  padding:10px 0 10px 8%;
+  padding:0px 0 27px 8%;
   display: block;
   color: #8d8589;
   font-size: 12px;
 }
+/*facility end here*/
+
+/*article start here*/
 .article{
   background-color: #e1e1e1;
   padding: 64px 0;
@@ -245,6 +252,7 @@ img{
   width: 18%;
   border: 1px solid#cdcdcd;
 }
+/*article end here*/
 .contact{
   padding: 63px 0;
   background-color: #e5e5e5;
@@ -263,18 +271,22 @@ img{
 .contact-info{
   padding: 36px 0 31px 0;
   color: #7d6e6d;
-  font-size: 14px;
+  font-size: 12px;
 }
 .contact-links{
   width: 50%;
   display: inline-block;
 }
+.contacts li a{
+  color:#7d6e6d;
+  font-size: 14px;
+}
 .input-fname{
   width: 45%;
-  padding:0 26px 0 0;
+  padding:0 6% 0 0;
   display: inline-block;
 }.input-email{
-  width: 45%;;
+  width: 45%;
   display: inline-block;
 }
 input{
@@ -294,6 +306,7 @@ input[type=button]{
   width: 35%;
   border: 1px solid #d2d2d2;
   border-radius:50px ;
+  background-color: #e5e5e5;
   color:#717476;
   font-weight: 600;
 }
@@ -302,6 +315,16 @@ input[type=button]{
   display: block;
   color:#717476;
 }
+
+/*=================================
+  main styling ends here
+=================================*/
+
+/*=================================
+  footer styling starts here
+=================================*/ 
+
+/*footer start here*/
 .copyright{
   padding: 25px 0;
   background-color: #e1e1e1;
@@ -314,15 +337,6 @@ input[type=button]{
   text-align: center;
 }
 
-/*=================================
-  main styling ends here
-=================================*/
-
-/*=================================
-  footer styling starts here
-=================================*/ 
-
-
 
 
 
@@ -331,10 +345,45 @@ input[type=button]{
  /*=================================
   footer styling ends here
 =================================*/ 
+a{
+  text-decoration: none;
+}
+a:hover{
+  background-color: #5d5c5c;
+  color:#fff;
+}
 
 /*media query starts*/
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
+
+
+
+}  
+
+/*media query for 768px starts here*/
+@media only screen and (max-width: 768px) {
+
+
+
+}  
+
+/*media query for 540px starts here*/
+@media only screen and (max-width: 540px) {
+
+
+
+}  
+
+/*media query for 995px starts here*/
+@media only screen and (max-width: 480px) {
+
+
+
+}  
+
+/*media query for 320px starts here*/
+@media only screen and (max-width: 320px) {
 
 
 
