@@ -354,6 +354,15 @@ a:hover{
   background-color: #5d5c5c;
   color:#fff;
 }
+/*icon start here*/
+.icon{
+  font-size: 0;
+}
+.tick::before{
+  font-family: 'FontAwesome';
+  content: '#f00c';
+}
+
 
 /*media query starts*/
 /*media query for 995px starts here*/
