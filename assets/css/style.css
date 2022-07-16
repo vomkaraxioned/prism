@@ -122,15 +122,15 @@ li {
 }
 
 .hero-section{
-  background-image: linear-gradient(to right,#50426c, #6e396f);
   padding: 175px 0 75px 0;
+  background-image: linear-gradient(to right,#50426c, #6e396f);
 }
 .title{
   width: 50%;
   padding:0 5% 0 0;
   display: inline-block;
   color: #e5e5e5;
-  font-size: 31.2px;
+  font-size: 31.2px;/*31.2*/
   font-weight: 600;
   text-align: left;
   box-shadow: 1px 0 #644b72;
@@ -185,7 +185,7 @@ li {
   line-height: 2;
 }
 .info-btn{
-  width:28%;
+  width:25%;
   border: 1px solid #cdcdcd;
 }
 /*info ends here*/
@@ -249,7 +249,7 @@ img{
   box-shadow: none;
 }
 .btn_article{
-  width: 18%;
+  width: 20%;
   border: 1px solid#cdcdcd;
 }
 /*article end here*/
@@ -282,14 +282,15 @@ img{
   font-size: 14px;
 }
 .input-fname{
-  width: 45%;
-  padding:0 6% 0 0;
+  width: 37%;
+  margin: 0 15% 0 0;
   display: inline-block;
 }.input-email{
-  width: 45%;
+  width: 37%;
   display: inline-block;
 }
 input{
+  width: 100%;
   padding: 10px 0;
 }
 .txtarea{
@@ -304,7 +305,8 @@ textarea{
 }
 input[type=button]{
   width: 35%;
-  border: 1px solid #d2d2d2;
+  border: none;
+  border: .5px solid #717476;
   border-radius:50px ;
   background-color: #e5e5e5;
   color:#717476;
@@ -356,8 +358,130 @@ a:hover{
 /*media query starts*/
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
+  .hero-section{
+    padding: 100px 0 55px 0;
+  }
+  .title{
+    width: 50%;
+    padding:0 2.5% 0 0;
+    font-size: 21px;/*31.2*/
+    line-height: 1.4;
+    
+  }
+  /*info styling*/
+  .info-title{
+    font-size: 16px;
+  }
+  .description{
+    padding: 30px 40px 30px 0;
+    font-size: 12px;
+  }
+  .info-btn{
+    width:25%;
+  }
+  /*info ends here*/
+  .facility{
+    width: 50%;
+  }
+  .services{
+    padding: 8px 0;
+  }
+  .service{
+    padding:0px 0 27px 8%;
+    font-size: 12px;
+  }
+  /*facility end here*/
+  
+  /*article start here*/
+  .article{
+    padding: 64px 0;
+  }
+  figure{
+    width: 40%;
+  }
+  img{
+    width: 100%;
+    height: 100%;
+  }
+  .card-info{
+    width: 60%;
+    padding: 73px 40px;
+  }
+  .card{
+    padding: 0 0 40px 0;
+  }
+  .card-title{
+    font-size: 20px;
+  }
+  .card-description{
+    padding:30px 0;
+    font-size: 14px;
+  }
+  .btn-card{
+    width: 20%;
+  }
 
-
+  .btn_article{
+    width: 20%;
+  }
+  /*article end here*/
+  .contact{
+    padding: 63px 0;
+  }
+  .contact-form{
+    width: 50%;
+  }
+  .contact-title{
+    font-size: 24px;
+  }
+  .contact-info{
+    padding: 36px 0 31px 0;
+    font-size: 12px;
+  }
+  .contact-links{
+    width: 50%;
+  }
+  .contacts li a{
+    font-size: 14px;
+  }
+  .input-fname{
+    width: 37%;
+    margin: 0 15% 0 0;
+  }.input-email{
+    width: 37%;
+  }
+  input{
+    width: 100%;
+    padding: 10px 0;
+  }
+  .txtarea{
+    width: 100%;
+    padding: 27px 0;
+  }
+  textarea{
+    width: 90%;
+  }
+  input[type=button]{
+    width: 35%;
+  }
+  .contacts li{
+    padding: 0 0 20px 40px;
+  }
+  
+  /*=================================
+    main styling ends here
+  =================================*/
+  
+  /*=================================
+    footer styling starts here
+  =================================*/ 
+  
+  /*footer start here*/
+  .copyright{
+    padding: 25px 0;
+    font-size: 16px;
+  
+  }
 
 }  
 
