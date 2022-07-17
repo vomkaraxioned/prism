@@ -103,7 +103,9 @@ li {
   width: 65%; 
   margin: 0 auto;
 }
-  
+*{
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
 /*=================================
   main styling starts here
@@ -130,8 +132,8 @@ li {
   padding:0 5% 0 0;
   display: inline-block;
   color: #e5e5e5;
-  font-size: 31.2px;/*31.2*/
-  font-weight: 600;
+  font-size: 32.5px;/*31.2*/
+  font-weight: 500;
   text-align: left;
   box-shadow: 1px 0 #644b72;
   line-height: 1.4;
@@ -422,6 +424,26 @@ a:hover{
 
 
 /*media query starts*/
+/*media query for 1196*/
+@media only screen and (max-width: 1196px){
+  .title{
+    width: 50%;
+    padding:0 2.5% 0 0;
+    font-size: 29.9px;/*31.2*/
+    line-height: 1.4;
+    
+  }
+}
+@media only screen and (max-width: 1086px){
+  .title{
+    width: 50%;
+    padding:0 2.5% 0 0;
+    font-size: 28px;/*31.2*/
+    line-height: 1.4;
+    
+  }
+}
+/*1196 end here*/
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
   .hero-section{
