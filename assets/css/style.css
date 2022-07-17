@@ -130,7 +130,7 @@ li {
   padding:0 5% 0 0;
   display: inline-block;
   color: #e5e5e5;
-  font-size: 31px;/*31.2*/
+  font-size: 31.2px;/*31.2*/
   font-weight: 600;
   text-align: left;
   box-shadow: 1px 0 #644b72;
@@ -207,7 +207,7 @@ li {
 /*article start here*/
 .article{
   padding: 64px 0;
-  background-color: #e1e1e1;
+  background-color: #fafafa;
 }
 figure{
   width: 40%;
@@ -245,7 +245,7 @@ img{
   border: 1px solid#cdcdcd;
 }
 .show-more{
-  background-color: #e1e1e1;
+  background-color: #fafafa;
   box-shadow: none;
 }
 .btn_article{
@@ -256,7 +256,7 @@ img{
 .contact{
   padding: 63px 0;
   background-color: #fff;
-  box-shadow: 0 1px #cacaca;
+  box-shadow: 0px 1px #cdcdcd;
 }
 .contact-form{
   width: 50%;
@@ -282,16 +282,18 @@ img{
   font-size: 14px;
 }
 .input-fname{
-  width: 37%;
-  margin: 0 15% 0 0;
+  width: 39%;
+  margin: 0 13% 0 0;
   display: inline-block;
 }.input-email{
-  width: 37%;
+  width: 39%;
   display: inline-block;
 }
 input{
   width: 100%;
   padding: 10px 0;
+  border: none;
+  box-shadow: 1px 1px 2px 2px #e7e7e7;
 }
 .txtarea{
   width: 100%;
@@ -299,6 +301,8 @@ input{
 }
 textarea{
   width: 90%;
+  border: none;
+  box-shadow: 1px 1px 2px 2px #e7e7e7;
 }
 .btn-form{
   text-align: left;
@@ -306,11 +310,11 @@ textarea{
 input[type=button]{
   width: 35%;
   border: none;
-  border: .5px solid #717476;
   border-radius:50px ;
-  background-color: #e5e5e5;
+  background-color: #fafafa;
   color:#717476;
   font-weight: 600;
+  box-shadow: 1px 1px 2px 2px #e7e7e7;
 }
 .contacts li{
   padding: 0 0 20px 40px;
@@ -328,8 +332,8 @@ input[type=button]{
 
 /*footer start here*/
 .copyright{
-  padding: 25px 0;
-  background-color: #e1e1e1;
+  padding: 53px 0;
+  background-color: #fafafa;
   color:#b7acac;
   font-size: 16px;
 
@@ -359,9 +363,62 @@ a:hover{
   font-size: 0;
 }
 .tick::before{
-  font-family: 'FontAwesome';
-  content: '#f00c';
+  margin: 0 2%;
+  color: #49bd8b;
+  font-family: "FontAwesome";
+  font-size: 12px;
+  font-weight: 900;
+  content: "\f00c";
 }
+.twitter::before{
+  margin: 0 5%;
+  color: #49bd8b;
+  font-family: "FontAwesome";
+  font-size: 12px;
+  font-weight: 900;
+  content: "\f099";
+}
+.facebook::before{
+  margin: 0 5%;
+  color: #49bd8b;
+  font-family: "FontAwesome";
+  font-size: 12px;
+  font-weight: 900;
+  content: "\f09a";
+}
+.insta::before{
+  margin: 0 5%;
+  color: #49bd8b;
+  font-family: "FontAwesome";
+  font-size: 12px;
+  font-weight: 900;
+  content: "\f16d";
+}
+.email::before{
+  margin: 0 5%;
+  color: #49bd8b;
+  font-family: "FontAwesome";
+  font-size: 12px;
+  font-weight: 900;
+  content: "\f0e0";
+}
+.email::before{
+  margin: 0 5%;
+  color: #49bd8b;
+  font-family: "FontAwesome";
+  font-size: 12px;
+  font-weight: 900;
+  content: "\f0e0";
+}
+.home::before{
+  margin: 0 5%;
+  color: #49bd8b;
+  font-family: "FontAwesome";
+  font-size: 12px;
+  font-weight: 900;
+  content: "\f015";
+}
+
 
 
 /*media query starts*/
@@ -781,6 +838,7 @@ a:hover{
 /*media query for 320px starts here*/
 @media only screen and (max-width: 320px) {
   .wrapper{
+    width: 90%;
     display: block;
   }
   .hero-section{
