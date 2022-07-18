@@ -211,9 +211,7 @@ li {
   display: inline-block;
 }
 
-.services {
-  padding: 8px 5%;
-}
+.services {padding: 8px 5%;}
 
 .service {
   padding: 0 0 27px 8%;
@@ -350,9 +348,7 @@ textarea {
   box-shadow: 1px 1px 2px 2px #e7e7e7;
 }
 
-.btn-form {
-  text-align: left;
-}
+.btn-form {text-align: left;}
 
 input[type=button] {
   width: 35%;
@@ -396,9 +392,7 @@ input[type=button] {
  /*=================================
   footer styling ends here
 =================================*/ 
-a {
-  text-decoration: none;
-}
+a {text-decoration: none;}
 
 .btn:hover {
   background-color: #5d5c5c;
@@ -410,9 +404,7 @@ input[type=button]:hover{
   color:#fff;
 }
 
-.icon:hover{
-  color: #000;
-}
+.icon:hover{color: #000}
 /*icon start here*/
 
 .tick::before {
@@ -508,9 +500,7 @@ input[type=button]:hover{
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
 
-  .hero-section {
-    padding: 100px 0 55px 0;
-  }
+  .hero-section {padding: 100px 0 55px 0;}
 
   .btn {
     font-size: 10px;
@@ -526,28 +516,20 @@ input[type=button]:hover{
 
   /*info styling*/
 
-  .info-title {
-    font-size: 16px;
-  }
+  .info-title {font-size: 16px;}
 
   .description {
     padding: 30px 40px 30px 0;
     font-size: 12px;
   }
 
-  .info-btn {
-    width:25%;
-  }
+  .info-btn {width:25%;}
 
   /*info ends here*/
 
-  .facility {
-    width: 50%;
-  }
+  .facility {width: 50%;}
 
-  .services {
-    padding: 8px 0;
-  }
+  .services {padding: 8px 0;}
 
   .service {
     padding:0px 0 27px 8%;
@@ -558,13 +540,9 @@ input[type=button]:hover{
   
   /*article start here*/
 
-  .article {
-    padding: 64px 0;
-  }
+  .article {padding: 64px 0;}
 
-  figure {
-    width: 40%;
-  }
+  figure {width: 40%;}
 
   img {
     width: 100%;
@@ -576,61 +554,42 @@ input[type=button]:hover{
     padding: 73px 40px;
   }
 
-  .card {
-    margin: 0 0 40px 0;
-  }
+  .card { margin: 0 0 40px 0}
 
-  .card-title {
-    font-size: 20px;
-  }
+  .card-title { font-size: 20px;}
 
   .card-description {
     padding:30px 0;
     font-size: 14px;
   }
 
-  .btn-card {
-    width: 20%;
-  }
+  .btn-card {width: 20%;}
 
-  .btn_article {
-    width: 20%;
-  }
+  .btn_article {width: 20%;}
 
   /*article end here*/
 
-  .contact {
-    padding: 63px 0;
-  }
+  .contact { padding: 63px 0;}
 
-  .contact-form {
-    width: 50%;
-  }
+  .contact-form {width: 50%;}
 
-  .contact-title {
-    font-size: 20px;
-  }
+  .contact-title {font-size: 20px;}
 
   .contact-info {
     padding: 36px 0 31px 0;
     font-size: 12px;
   }
 
-  .contact-links {
-    width: 50%;
-  }
+  .contact-links { width: 50%;}
 
-  .contacts li a {
-    font-size: 12px;
-  }
+  .contacts li a {font-size: 12px;}
 
   .input-fname {
     width: 37%;
     margin: 0 15% 0 0;
   }
-  .input-email {
-    width: 37%;
-  }
+
+  .input-email {width: 37%;}
 
   input {
     width: 100%;
@@ -642,17 +601,11 @@ input[type=button]:hover{
     padding: 27px 0;
   }
 
-  textarea {
-    width: 90%;
-  }
+  textarea {width: 90%;}
 
-  input[type=button] {
-    width: 35%;
-  }
+  input[type=button] {width: 35%;}
 
-  .contacts li {
-    padding: 0 0 20px 40px;
-  }
+  .contacts li {padding: 0 0 20px 40px;}
 
   
   /*=================================
@@ -676,9 +629,7 @@ input[type=button]:hover{
 /*media query for 768px starts here*/
 @media only screen and (max-width: 768px) {
 
-  .hero-section {
-    padding: 100px 0 55px 0;
-  }
+  .hero-section {padding: 100px 0 55px 0;}
 
   .btn {
     font-size: 8px;
@@ -695,28 +646,20 @@ input[type=button]:hover{
 
   /*info styling*/
 
-  .info-title {
-    font-size: 14px;
-  }
+  .info-title {font-size: 14px;}
 
   .description {
     padding: 30px 40px 30px 0;
     font-size: 10px;
   }
 
-  .info-btn {
-    width:25%;
-  }
+  .info-btn {width:25%;}
 
   /*info ends here*/
 
-  .facility {
-    width: 50%;
-  }
+  .facility { width: 50%;}
 
-  .services {
-    padding: 8px 0;
-  }
+  .services {padding: 8px 0;}
 
   .service {
     padding:0px 0 27px 8%;
@@ -727,13 +670,9 @@ input[type=button]:hover{
   
   /*article start here*/
 
-  .article {
-    padding: 64px 0;
-  }
+  .article {padding: 64px 0;}
 
-  figure {
-    width: 40%;
-  }
+  figure {width: 40%;}
 
   img {
     width: 100%;
@@ -745,13 +684,9 @@ input[type=button]:hover{
     padding:35px 20px;
   }
 
-  .card {
-    padding-bottom:  20px;
-  }
+  .card {padding-bottom:  20px;}
 
-  .card-title {
-    font-size: 16px;
-  }
+  .card-title {font-size: 16px;}
 
   .card-description {
     padding:30px 0;
@@ -761,54 +696,46 @@ input[type=button]:hover{
   .btn-card {width: 20%;}
 
 
-  .btn_article {
-    width: 20%;
-  }
+  .btn_article {width: 20%;}
 
   /*article end here*/
-  .contact {
-    padding: 63px 0;
-  }
+  .contact {padding: 63px 0;}
 
-  .contact-form {
-    width: 50%;
-  }
-  .contact-title{
-    font-size: 16px;
-  }
-  .contact-info{
+  .contact-form {width: 50%;}
+
+  .contact-title {font-size: 16px;}
+
+  .contact-info {
     padding: 36px 0 31px 0;
     font-size: 10px;
   }
-  .contact-links{
-    width: 50%;
-  }
-  .contacts li a{
-    font-size: 10px;
-  }
-  .input-fname{
+
+  .contact-links {width: 50%;}
+
+  .contacts li a {font-size: 10px;}
+
+  .input-fname {
     width: 90%;
     margin-bottom: 10px;
-  }.input-email{
-    width: 90%;
   }
-  input{
+  
+  .input-email {width: 90%;}
+
+  input {
     width: 100%;
     padding: 10px 0;
   }
-  .txtarea{
+
+  .txtarea {
     width: 100%;
     padding: 27px 0;
   }
-  textarea{
-    width: 90%;
-  }
-  input[type=button]{
-    width: 45%;
-  }
-  .contacts li{
-    padding: 0 0 20px 40px;
-  }
+
+  textarea{width: 90%;}
+
+  input[type=button]{width: 45%;}
+
+  .contacts li {padding: 0 0 20px 40px;}
   
   /*=================================
     main styling ends here
@@ -819,7 +746,7 @@ input[type=button]:hover{
   =================================*/ 
   
   /*footer start here*/
-  .copyright{
+  .copyright {
     padding: 25px 0;
     font-size: 8px;
   
@@ -830,37 +757,27 @@ input[type=button]:hover{
 
 /* media query for 540px starts here */
  @media only screen and (max-width: 540px) {
-  .wrapper{
-    width: 90%;
-  }
+  .wrapper {width: 90%;}
+
   .title {
     width:100%;
     font-size: 26px;
   }
   
-  .about {
-    width: 100%;
-  }
-  .title-btn {
-    width: 40%;
-  }
+  .about {width: 100%;}
 
-  .info-btn {
-    width: 35%;
-  }
+  .title-btn {width: 40%;}
 
-  .card-info {
-    padding: 0 2%;
-  }
+  .info-btn {width: 35%;}
+
+  .card-info { padding: 0 2%;}
 
   .btn-card {
     width: 30%;
     margin-bottom: 5px;
   }
 
-  .btn-article{
-    width: 45%;
-  }
+  .btn-article { width: 45%;}
 
   .input-fname {
     width: 92%;
@@ -878,35 +795,27 @@ input[type=button]:hover{
 
 /*media query for 995px starts here*/
 @media only screen and (max-width: 480px) {
-  .wrapper{
-    width: 90%;
-  }
+  .wrapper {width: 90%;}
+
   .title {
     width:100%;
     font-size: 26px;
   }
   
-  .about {
-    width: 100%;
-  }
-  .title-btn {
-    width: 40%;
-  }
+  .about {width: 100%;}
 
-  .info-btn {
-    width: 35%;
-  }
+  .title-btn {width: 40%;}
 
-  .card-info {
-    padding: 0 2%;
-  }
+  .info-btn {width: 35%;}
+
+  .card-info {padding: 0 2%;}
 
   .btn-card {
     width: 30%;
     margin-bottom: 5px;
   }
 
-  .btn-article{width: 45%;}
+  .btn-article {width: 45%;}
 
   .input-fname {
     width: 92%;
@@ -917,13 +826,11 @@ input[type=button]:hover{
   
   input { width: 100%;}
 
-  input[type=button]{
-    width: 55%;
-  }
+  input[type=button] {width: 55%;}
 }
 
 @media only screen and (max-width: 320px) {
-  .wrapper{
+  .wrapper {
     width: 90%;
     display: block;
     text-align: center;
@@ -953,7 +860,7 @@ input[type=button]:hover{
     margin: 0;
   }
 
-  .services{padding: 15px 0;}
+  .services {padding: 15px 0;}
   .service {padding-left: 0 ; }
   .info-btn { width: 30%;}
 
@@ -996,7 +903,5 @@ input[type=button]:hover{
     text-align: center;
   }
 
-  .contact li {
-    padding: 10px 0;
-  }
+  .contact li {padding: 10px 0;}
 }
