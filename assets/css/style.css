@@ -132,10 +132,10 @@ li {
 
 .title {
   width: 50%;
-  padding:0 5% 0 0;
+  padding-right: 5% ;
   display: inline-block;
   color: #e5e5e5;
-  font-size: 29px;
+  font-size: 34px;
   font-weight: 400;
   text-align: left;
   box-shadow: 1px 0 #644b72;
@@ -479,7 +479,6 @@ input[type=button]:hover{
   content: "\f015";
 }
 
-}
 /*media query starts*/
 
 /*media query for 1196*/
@@ -489,7 +488,7 @@ input[type=button]:hover{
   .title {
     width: 50%;
     padding-right:2.5% ;
-    font-size: 28px;
+    font-size: 32px;
     line-height: 1.4;
     
   }
@@ -498,7 +497,7 @@ input[type=button]:hover{
   .title{
     width: 50%;
     padding-right: 2.5%;
-    font-size: 28px;
+    font-size: 30px;
     line-height: 1.4;
     
   }
@@ -519,8 +518,8 @@ input[type=button]:hover{
 
   .title {
     width: 50%;
-    padding:0 2.5% 0 0;
-    font-size: 24px;/*31.2*/
+    padding-right: 2.5% ;
+    font-size: 26px;
     line-height: 1.4;
   }
 
@@ -688,7 +687,7 @@ input[type=button]:hover{
   .title {
     width: 50%;
     padding:0 2.5% 0 0;
-    font-size: 21px;/*31.2*/
+    font-size: 21px;
     line-height: 1.4;
     
   }
@@ -787,10 +786,10 @@ input[type=button]:hover{
     font-size: 10px;
   }
   .input-fname{
-    width: 37%;
-    margin: 0 15% 0 0;
+    width: 90%;
+    margin-bottom: 10px;
   }.input-email{
-    width: 37%;
+    width: 90%;
   }
   input{
     width: 100%;
@@ -804,7 +803,7 @@ input[type=button]:hover{
     width: 90%;
   }
   input[type=button]{
-    width: 35%;
+    width: 45%;
   }
   .contacts li{
     padding: 0 0 20px 40px;
@@ -828,17 +827,175 @@ input[type=button]:hover{
 
 }  
 
-/*media query for 540px starts here*/
-/* @media only screen and (max-width: 540px) {
+/* media query for 540px starts here */
+ @media only screen and (max-width: 540px) {
+  .wrapper{
+    width: 90%;
+  }
+  .title {
+    width:100%;
+    font-size: 26px;
+  }
+  
+  .about {
+    width: 100%;
+  }
+  .title-btn {
+    width: 40%;
+  }
 
-}   */
+  .info-btn {
+    width: 35%;
+  }
+
+  .card-info {
+    padding: 0 2%;
+  }
+
+  .btn-card {
+    width: 30%;
+    margin-bottom: 5px;
+  }
+
+  .btn-article{
+    width: 45%;
+  }
+
+  .input-fname {
+    width: 92%;
+    margin-bottom:10px;
+  }
+
+  .input-email {width: 92%;}
+  
+  input { width: 100%;}
+
+  input[type=button]{
+    width: 50%;
+  }
+}  
 
 /*media query for 995px starts here*/
 @media only screen and (max-width: 480px) {
   .wrapper{
-   flex-direction: column;
+    width: 90%;
   }
-  .title{
-    width:740px;
+  .title {
+    width:100%;
+    font-size: 26px;
+  }
+  
+  .about {
+    width: 100%;
+  }
+  .title-btn {
+    width: 40%;
+  }
+
+  .info-btn {
+    width: 35%;
+  }
+
+  .card-info {
+    padding: 0 2%;
+  }
+
+  .btn-card {
+    width: 30%;
+    margin-bottom: 5px;
+  }
+
+  .btn-article{width: 45%;}
+
+  .input-fname {
+    width: 92%;
+    margin-bottom:10px;
+  }
+
+  .input-email {width: 92%;}
+  
+  input { width: 100%;}
+
+  input[type=button]{
+    width: 55%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .wrapper{
+    width: 90%;
+    display: block;
+    text-align: center;
+  }
+  .title {
+    width:100%;
+    display: block;
+    margin-bottom:10px ;
+    font-size: 26px;
+    box-shadow:0 1px #644b72;
+  }
+  
+  .about {
+    width: 100%;
+    padding: 0;
+    display: block;
+  }
+  .title-btn {width: 40%;}
+
+  .details {
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: 1px solid #5c5c5c;
+  }
+  .description {
+    padding: 20px 0;
+    margin: 0;
+  }
+
+  .services{padding: 15px 0;}
+  .service {padding-left: 0 ; }
+  .info-btn { width: 30%;}
+
+  .card-info {padding: 0 2%;}
+
+  .btn-card {
+    width: 40%;
+    margin-bottom: 5px;
+  }
+
+  .btn-article{ width: 45%;}
+
+  .input-fname {
+    width: 92%;
+    padding: 0;
+    margin:10px 0 ;
+  }
+
+  .article {padding: 10px 0;} 
+
+  .contact {padding: 10px 0;}
+
+  .contact-form { width: 100%;}
+  .contact-info {width:100%;}
+
+  .input-email {width: 92%;}
+  
+  input { width: 100%;}
+
+  input[type=button]{width: 55%;}
+
+  .btn-form {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  .contact-links {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  .contact li {
+    padding: 10px 0;
   }
 }
