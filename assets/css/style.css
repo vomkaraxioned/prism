@@ -206,7 +206,7 @@ li {
 }
 
 /*info ends here*/
-.facility {
+.facilities {
   width: 50%;
   display: inline-block;
 }
@@ -277,7 +277,7 @@ img {
   box-shadow: none;
 }
 
-.btn_article {
+.btn-article {
   width: 20%;
   border: 1px solid#cdcdcd;
 }
@@ -323,11 +323,13 @@ img {
   width: 39%;
   margin: 0 13% 0 0;
   display: inline-block;
+  font-size: 16px;
 }
 
 .input-email {
   width: 39%;
   display: inline-block;
+  font-size: 16px;
 }
 
 input {
@@ -795,38 +797,105 @@ input[type=button]:hover{
 
 /*media query for 995px starts here*/
 @media only screen and (max-width: 480px) {
-  .wrapper {width: 90%;}
-
+  .wrapper {
+    width: 90%;
+    display: block;
+    text-align: center;
+  }
   .title {
     width:100%;
+    display: block;
+    margin-bottom:10px ;
     font-size: 26px;
+    text-align: center;
+    box-shadow:0 1px #644b72;
   }
   
-  .about {width: 100%;}
+  .btn {font-size: 12px;}
+  .about {
+    width: 100%;
+    padding: 0;
+    display: block;
+  }
+  .title-btn {width: 30%;}
 
-  .title-btn {width: 40%;}
+  .info-title {font-size: 20px;}
 
-  .info-btn {width: 35%;}
+  .description {font-size: 15px;}
+
+  .details {
+    width: 100%;
+    padding: 20px 0;
+    box-shadow: none;
+    box-shadow: 0 1px #5c5c5c;
+  }
+  .description {
+    padding: 20px 0;
+    margin: 0;
+  }
+
+  .facilities{width: 100%;}
+  .services {padding: 15px 0;}
+
+  .service {
+    padding-left: 0 ;
+    font-size: 15px;
+    text-align: center;
+   }
+
+  .info-btn { width: 25%;}
 
   .card-info {padding: 0 2%;}
 
   .btn-card {
-    width: 30%;
+    width: 40%;
     margin-bottom: 5px;
   }
 
-  .btn-article {width: 45%;}
+  .btn-article{ width: 35%;}
 
   .input-fname {
     width: 92%;
-    margin-bottom:10px;
+    padding: 0;
+    margin:10px 0 ;
+  }
+
+  .article {padding: 10px 0;} 
+
+  .contact {padding: 10px 0;}
+
+  .contact-title {font-size: 20px;}
+
+  .contact-form { 
+    width: 100%;
+    box-shadow: 0 1px #5c5c5c;
+  }
+
+  .contact-info {
+    width:100%;
+    font-size: 15px;
   }
 
   .input-email {width: 92%;}
   
   input { width: 100%;}
 
-  input[type=button] {width: 55%;}
+  input[type=button]{width: 45%;}
+
+  .btn-form {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  .contact-links {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  .contact li {padding: 10px 0;}
+
+  .copyright {font-size: 12px;}
 }
 
 @media only screen and (max-width: 320px) {
@@ -866,6 +935,8 @@ input[type=button]:hover{
 
   .card-info {padding: 0 2%;}
 
+  .card-description {padding: 10px 0;}
+  
   .btn-card {
     width: 40%;
     margin-bottom: 5px;
