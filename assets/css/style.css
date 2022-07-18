@@ -212,7 +212,7 @@ li {
 }
 
 .services {
-  padding: 8px 0;
+  padding: 8px 5%;
 }
 
 .service {
@@ -220,6 +220,7 @@ li {
   display: block;
   color: #8d8589;
   font-size: 12px;
+  text-align: left;
 }
 
 /*facility end here*/
