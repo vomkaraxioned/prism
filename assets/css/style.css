@@ -311,6 +311,8 @@ img {
   font-weight: 400;
 }
 
+.contact-info::first-letter {text-transform: capitalize;}
+
 .contact-links {
   width: 50%;
   display: inline-block;
@@ -505,7 +507,7 @@ input[type=button]:hover{
   .hero-section {padding: 100px 0 55px 0;}
 
   .btn {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 400;
   }
 
@@ -634,11 +636,14 @@ input[type=button]:hover{
   .hero-section {padding: 100px 0 55px 0;}
 
   .btn {
-    font-size: 8px;
+    font-size: 12px;
     font-weight: 400;
   }
 
-  .title-btn {width:40%;}
+  .title-btn {
+    width:40%;
+    font-size: 10px;
+  }
   .title {
     width: 50%;
     padding:0 2.5% 0 0;
@@ -701,7 +706,7 @@ input[type=button]:hover{
   .btn-card {width: 30%;}
 
 
-  .btn-article {width: 30%;}
+  .btn-article {width: 35%;}
 
   /*article end here*/
   .contact {padding: 63px 0;}
@@ -829,7 +834,7 @@ input[type=button]:hover{
 
   .info-title {font-size: 20px;}
 
-  .description {font-size: 15px;}
+  .description {font-size: 12px;}
 
   .details {
     width: 100%;
@@ -860,7 +865,7 @@ input[type=button]:hover{
     margin-bottom: 5px;
   }
 
-  .btn-article{ width: 35%;}
+  .btn-article{ width: 40%;}
 
   .input-fname {
     width: 92%;
