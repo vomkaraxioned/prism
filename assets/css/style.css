@@ -105,14 +105,12 @@ li {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-.icon { font-size: 0;}
-
 .btn {
-  padding: 12px 3%;
+  padding: 10px 3%;
   border-radius: 50px;
   color: #5c6165;
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 400;
   text-transform: capitalize;
   text-align: center;
 }
@@ -134,7 +132,7 @@ li {
   width: 50%;
   padding-right: 5% ;
   display: inline-block;
-  color: #e5e5e5;
+  color: #fff;
   font-size: 34px;
   font-weight: 400;
   text-align: left;
@@ -144,7 +142,7 @@ li {
 }
 
 .title span {
-  color:#e5e5e5;
+  color:#fff;
   text-transform: uppercase;
 }
 
@@ -157,8 +155,8 @@ li {
 .about-us {
   padding: 0 0 23px 0;
   color: #9a8ba8;
-  font-size: 15px;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: 600;
   text-align: justify;
   line-height: 1.4;
 
@@ -189,8 +187,8 @@ li {
 
 .info-title {
   color: #5c5c5c;
-  font-size: 26px;
-  font-weight: 700;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .description {
@@ -259,12 +257,13 @@ img {
   color: #5c5c5c;
   font-size: 20px;
   font-weight: 600;
+  text-transform: capitalize;
 }
 
 .card-description {
   padding:30px 0;
   color: #918386;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .btn-card {
@@ -280,6 +279,8 @@ img {
 .btn-article {
   width: 20%;
   border: 1px solid#cdcdcd;
+  font-size: 12px ;
+  font-weight: 600;
 }
 
 /*article end here*/
@@ -299,6 +300,7 @@ img {
   color: #5d5c5c;
   font-size: 24px;
   font-weight: 600;
+  text-transform: capitalize;
 }
 
 .contact-info {
@@ -316,27 +318,26 @@ img {
 
 .contacts li a {
   color:#7d6e6d;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .input-fname {
   width: 39%;
   margin: 0 13% 0 0;
   display: inline-block;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .input-email {
   width: 39%;
   display: inline-block;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 input {
   width: 100%;
   padding: 10px 0;
-  border: none;
-  box-shadow: 1px 1px 2px 2px #e7e7e7;
+  border: 1px solid #ccc;
 }
 
 .txtarea {
@@ -346,8 +347,7 @@ input {
 
 textarea {
   width: 90%;
-  border: none;
-  box-shadow: 1px 1px 2px 2px #e7e7e7;
+  border: 1px solid #ccc;
 }
 
 .btn-form {text-align: left;}
@@ -365,7 +365,7 @@ input[type=button] {
 }
 
 .contacts li {
-  padding: 0 0 20px 40px;
+  padding: 0 0 20px 5%;
   display: block;
   color:#717476;
 }
@@ -947,10 +947,6 @@ input[type=button]:hover{
   
   .btn-card {
     width: 45%;
-<<<<<<< HEAD
-=======
-    padding: 5px 0;
->>>>>>> 2507e56590bae2f727e4f2c056ba4ed7050ea7ce
     margin-bottom: 5px;
   }
 
