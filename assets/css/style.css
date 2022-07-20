@@ -344,6 +344,9 @@ input {
 
 input[type=text],input[type=email] {padding:15px 0;}
 
+input::placeholder {padding-left: 5%;}
+
+textarea::placeholder {padding-left: 5%;}
 
 .txtarea {
   width: 100%;
@@ -577,7 +580,7 @@ input::placeholder {
 
   .btn-card {width: 25%;}
 
-  .btn_article {width: 20%;}
+  .btn-article {width: 25%;}
 
   /*article end here*/
 
@@ -597,11 +600,11 @@ input::placeholder {
   .contacts li a {font-size: 12px;}
 
   .input-fname {
-    width: 37%;
-    margin: 0 15% 0 0;
+    width: 40%;
+    margin: 0 8% 0 0;
   }
 
-  .input-email {width: 37%;}
+  .input-email {width: 40%;}
 
   input {
     width: 100%;
@@ -615,7 +618,7 @@ input::placeholder {
 
   textarea {width: 90%;}
 
-  input[type=button] {width: 35%;}
+  input[type=button] {width: 38%;}
 
   .contacts li {padding: 0 0 20px 40px;}
 
