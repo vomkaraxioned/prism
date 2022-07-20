@@ -324,14 +324,14 @@ img {
 }
 
 .input-fname {
-  width: 39%;
-  margin: 0 13% 0 0;
+  width: 41%;
+  margin: 0 8% 0 0;
   display: inline-block;
   font-size: 12px;
 }
 
 .input-email {
-  width: 39%;
+  width: 41%;
   display: inline-block;
   font-size: 12px;
 }
@@ -341,6 +341,9 @@ input {
   padding: 10px 0;
   border: 1px solid #ccc;
 }
+
+input[type=text],input[type=email] {padding:15px 0;}
+
 
 .txtarea {
   width: 100%;
