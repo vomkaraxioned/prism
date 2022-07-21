@@ -134,7 +134,7 @@ li {
   padding-right: 4% ;
   display: inline-block;
   color: #fff;
-  font-size:32px;
+  font-size:28px;
   font-weight: 900;
   text-align: left;
   box-shadow: 1.5px 0 #644b72;
@@ -536,7 +536,10 @@ input[type=button]:hover{
     line-height: 1.4;
   }
 
-  .about-us { font-size: 18px;}
+  .about-us { 
+    font-size: 18px;
+    text-align: left;
+  }
   /*info styling*/
 
   .info-title {font-size: 16px;}
@@ -973,7 +976,6 @@ input[type=button]:hover{
     display: block;
     margin-bottom:10px ;
     font-size: 24px;
-    text-align: justify;
     box-shadow:0 1px #644b72;
   }
   
@@ -1016,14 +1018,14 @@ input[type=button]:hover{
   .card-info {padding: 0 2%;}
 
   .card-description {
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: justify;
   }
   
   .btn-card {
     width: 50%;
     padding: 5px 0;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
   }
 
   .btn-article{ 
