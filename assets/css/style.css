@@ -106,13 +106,14 @@ li {
 }
 
 .btn {
-  padding: 10px 3%;
+  padding: 12px 3%;
   border-radius: 50px;
   color: #5c6165;
-  font-size: 14px;
-  font-weight: 400;
-  text-transform: capitalize;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
   text-align: center;
+  letter-spacing: .1em;
 }
 .error{
   display: none;
@@ -130,15 +131,14 @@ li {
 
 .title {
   width: 50%;
-  padding-right: 5% ;
+  padding-right: 4% ;
   display: inline-block;
   color: #fff;
   font-size:32px;
-  font-weight: 600;
+  font-weight: 900;
   text-align: left;
-  box-shadow: 2px 0 #644b72;
+  box-shadow: 1.5px 0 #644b72;
   line-height: 1.4;
-  
 }
 
 .title span {
@@ -159,16 +159,16 @@ li {
   font-weight: 900;
   text-align:justify;
   line-height: 1.4;
-
 }
 
 .title-btn {
-  width:30%;
+  width:36%;
+  padding: 12px 0;
   background-color: #42aa7d;
   color: #e5e5e5;
-  font-size: 11px;
   font-weight: 600;
   text-transform: uppercase;
+  letter-spacing: .1em;
 }
 
 /*info starts here*/
@@ -176,13 +176,13 @@ li {
 .info {
   padding: 60px 0;
   background-color: #fff;
-  box-shadow: 0 1px #9a857f;
+  border-bottom: 1px solid #cdcdcd;
 }
 
 .details {
   width: 50%;
   display: inline-block;
-  box-shadow: 2px 0 #cdcdcd;
+  box-shadow: 1px 0 #cdcdcd;
 }
 
 .info-title {
@@ -192,15 +192,17 @@ li {
 }
 
 .description {
-  padding: 30px 40px 30px 0;
+  padding: 40px 8% 30px 0 ;
   color: #8d8589;
   font-size: 12px;
+  font-weight: 500;
   line-height: 2;
 }
 
 .info-btn {
   width:25%;
   border: 1px solid #cdcdcd;
+  text-transform: uppercase;
 }
 
 /*info ends here*/
@@ -212,7 +214,7 @@ li {
 .services {padding: 8px 5%;}
 
 .service {
-  padding: 0 0 27px 8%;
+  padding: 0 0 30px 2.5%;
   display: block;
   color: #8d8589;
   font-size: 12px;
@@ -224,7 +226,7 @@ li {
 /*article start here*/
 
 .article {
-  padding: 64px 0;
+  padding: 60px 0;
   background-color: #fafafa;
 }
 
@@ -243,7 +245,7 @@ img {
   width: 60%;
   padding: 73px 40px;
   display: inline-block;
-  box-shadow: 0 1px #cdcdcd;
+  box-shadow: 0 1.5px #cdcdcd;
 }
 
 .card {
@@ -253,22 +255,24 @@ img {
   justify-content: center;
 }
 
+.show-more {margin-bottom: 0;}
+
 .card-title {
   color: #5c5c5c;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
-  text-transform: capitalize;
 }
 
 .card-description {
   padding:30px 0;
   color: #918386;
   font-size: 12px;
+  font-weight: 500;
 }
 
 .btn-card {
-  width: 20%;
-  border: 1px solid#cdcdcd;
+  width: 18%;
+  border: 1.5px solid#cdcdcd;
 }
 
 .show-more {
@@ -277,9 +281,9 @@ img {
 }
 
 .btn-article {
-  width: 20%;
+  width: 21%;
   border: 1px solid#cdcdcd;
-  font-size: 12px ;
+  font-size: 10px ;
   font-weight: 600;
 }
 
@@ -287,28 +291,30 @@ img {
 .contact {
   padding: 63px 0;
   background-color: #fff;
-  box-shadow: 0px 1px #cdcdcd;
+  box-shadow: 0px 2px #cdcdcd;
 }
 
 .contact-form {
   width: 50%;
+  padding-right:2%;
   display: inline-block;
   box-shadow: 1px 0 #cdcdcd;
 }
 
 .contact-title {
   color: #5d5c5c;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
   text-transform: capitalize;
 }
 
 .contact-info {
   padding: 36px 0 31px 0;
-  margin-right:4% ;
+  margin-right:2% ;
   color: #7d6e6d;
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 500;
+  line-height: 2;
 }
 
 .contact-info::first-letter {text-transform: capitalize;}
@@ -324,29 +330,27 @@ img {
 }
 
 .input-fname {
-  width: 41%;
-  margin: 0 8% 0 0;
+  width: 41.5%;
+  margin: 0 7% 0 0;
   display: inline-block;
   font-size: 12px;
 }
 
 .input-email {
-  width: 41%;
+  width: 41.5%;
   display: inline-block;
   font-size: 12px;
 }
 
-input {
+input[type=text],input[type=email] {
   width: 100%;
-  padding: 10px 0;
-  border: 1px solid #ccc;
+  padding: 10px 5%;
+  border: 1px solid #eaeaea;
 }
-
-input[type=text],input[type=email] {padding:15px 0;}
-
-input::placeholder {padding-left: 5%;}
-
-textarea::placeholder {padding-left: 5%;}
+input::placeholder {
+  color: #ccc;
+  font-size: 12px;
+}
 
 .txtarea {
   width: 100%;
@@ -355,21 +359,27 @@ textarea::placeholder {padding-left: 5%;}
 
 textarea {
   width: 90%;
-  border: 1px solid #ccc;
+  padding: 15px 2.5%;
+  border: 1px solid #eaeaea;
+}
+
+textarea::placeholder {
+  color: #ccc;
+  font-size: 12px;
 }
 
 .btn-form {text-align: left;}
 
 input[type=button] {
   width: 35%;
-  border: 1px solid #ccc;
+  padding: 10px 0;
+  border: 1px solid #eaeaea;
   border-radius:50px ;
   background-color: #fafafa;
   color:#717476;
   font-size: 10px;
   font-weight: 600;
   text-transform: uppercase;
-  /* box-shadow: 1px 1px 2px 2px #8a8383; */
 }
 
 .contacts li {
@@ -391,7 +401,7 @@ input[type=button] {
   padding: 53px 0;
   background-color: #fafafa;
   color:#b7acac;
-  font-size: 16px;
+  font-size: 12px;
 
 }
 
@@ -414,18 +424,13 @@ input[type=button]:hover{
   color:#fff;
 }
 
-input::placeholder {
-  font-size: 10px ;
-  padding-right:20% ;
-}
-
 .icon:hover{color: #000}
 /*icon start here*/
 
 .tick::before {
 
   font-size: 0;
-  margin: 0 2%;
+  margin-right: 3%;
   color: #49bd8b;
   font-family: "FontAwesome";
   font-size: 12px;
@@ -517,6 +522,8 @@ input::placeholder {
 
   .hero-section {padding: 100px 0 55px 0;}
 
+  .description { font-size: 16px;}
+
   .btn {
     font-size: 12px;
     font-weight: 400;
@@ -529,6 +536,7 @@ input::placeholder {
     line-height: 1.4;
   }
 
+  .about-us { font-size: 18px;}
   /*info styling*/
 
   .info-title {font-size: 16px;}
@@ -537,8 +545,9 @@ input::placeholder {
     padding: 30px 40px 30px 0;
     font-size: 12px;
   }
-  .title-btn {width: 35%;}
-  .info-btn {width:30%;}
+  .title-btn { width: 45%;}
+
+  .info-btn { width:35%;}
 
   /*info ends here*/
 
@@ -578,9 +587,9 @@ input::placeholder {
     font-size: 14px;
   }
 
-  .btn-card {width: 25%;}
+  .btn-card {width: 30%;}
 
-  .btn-article {width: 25%;}
+  .btn-article {width:35%;}
 
   /*article end here*/
 
@@ -619,7 +628,7 @@ input::placeholder {
   textarea { width: 90%;}
 
   /* textarea::placeholder */
-  input[type=button] {width: 38%;}
+  input[type=button] {width: 45%;}
 
   .contacts li {padding: 0 0 20px 40px;}
 
@@ -653,7 +662,7 @@ input::placeholder {
   }
 
   .title-btn {
-    width:40%;
+    width:60%;
     font-size: 10px;
   }
   .title {
@@ -675,7 +684,7 @@ input::placeholder {
     font-size: 15px;
   }
 
-  .info-btn {width:35%;}
+  .info-btn {width:55%;}
 
   /*info ends here*/
 
@@ -715,10 +724,10 @@ input::placeholder {
     font-size: 15px;
   }
 
-  .btn-card {width: 30%;}
+  .btn-card {width: 45%;}
 
 
-  .btn-article {width: 35%;}
+  .btn-article {width: 45%;}
 
   /*article end here*/
   .contact {padding: 63px 0;}
@@ -753,9 +762,9 @@ input::placeholder {
     padding: 27px 0;
   }
 
-  textarea{width: 90%;}
+  textarea{width: 95%;}
 
-  input[type=button]{width: 45%;}
+  input[type=button]{width: 60%;}
 
   .contacts li {padding: 0 0 20px 40px;}
   
@@ -786,16 +795,23 @@ input::placeholder {
     font-size: 26px;
   }
   
-  .btn {font-size: 10px;}
+  .description { font-size:16px;}
+
+  .btn { font-size: 10px;}
+
+  .about-us { font-size: 18px;}
+
+  .service { font-size: 16px;}
 
   .about {
     width: 100%;
     font-size: 16px;
   }
 
-  .title-btn {width: 40%;}
+  .card-title {font-size: 19px;}
+  .title-btn {width: 55%;}
 
-  .info-btn {width: 35%;}
+  .info-btn {width: 40%;}
 
   .card-info { padding: 0 2%;}
 
@@ -837,17 +853,21 @@ input::placeholder {
   }
   
   .btn {font-size: 12px;}
+
   .about {
     width: 100%;
     padding: 0;
     display: block;
   }
-  .title-btn {width: 30%;}
+
+  .about-us {font-size: 18px;}
+
+  .title-btn {width: 40%;}
 
   .info-title {font-size: 20px;}
 
   .description {
-    font-size: 12px;
+    font-size: 16px;
     text-align: justify;
   }
 
@@ -864,31 +884,34 @@ input::placeholder {
   }
 
   .facilities{width: 100%;}
+
   .services {padding: 15px 0;}
 
   .service {
     padding-left: 0 ;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
    }
 
-  .info-btn { width: 25%;}
+  .info-btn { width: 30%;}
 
   .card-info {
     padding: 0 2%;
     text-align: justify;
   }
 
+  .card-description {font-size: 16px;}
+
   .btn-card {
     width: 45%;
+    padding: 8px 0;
     margin-bottom: 5px;
   }
 
-  .btn-article{ width: 40%;}
+  .btn-article{ width: 55%;}
 
   .input-fname {
-    width: 92%;
-    padding: 0;
+    display: block;
     margin:10px 0 ;
   }
 
@@ -909,8 +932,10 @@ input::placeholder {
     text-align: justify;
   }
 
-  .input-email {width: 92%;}
+  .input-email { display: block;}
   
+  textarea { width: 96.5%;}
+
   input { width: 100%;}
 
   input[type=button]{width: 40%;}
@@ -937,11 +962,17 @@ input::placeholder {
     display: block;
     text-align: center;
   }
+
+  .btn {
+    padding: 5px 0;
+    font-size: 12px;
+  }
+
   .title {
     width:100%;
     display: block;
     margin-bottom:10px ;
-    font-size: 25px;
+    font-size: 24px;
     text-align: justify;
     box-shadow:0 1px #644b72;
   }
@@ -951,7 +982,17 @@ input::placeholder {
     padding: 0;
     display: block;
   }
-  .title-btn {width: 40%;}
+
+  .about-us { 
+    font-size: 18px;
+    text-align: justify;
+  }
+  
+  .title-btn {
+    padding: 8px 0;
+    width: 45%;
+    font-size: 12px;
+  }
 
   .details {
     width: 100%;
@@ -961,12 +1002,16 @@ input::placeholder {
   .description {
     padding: 20px 0;
     margin: 0;
+    font-size: 16px;
     text-align: justify;
   }
 
   .services {padding: 15px 0;}
   .service {padding-left: 0 ; }
-  .info-btn { width: 30%;}
+  .info-btn { 
+    width: 40%;
+    padding: 8px 0;
+  }
 
   .card-info {padding: 0 2%;}
 
@@ -976,14 +1021,18 @@ input::placeholder {
   }
   
   .btn-card {
-    width: 45%;
+    width: 50%;
+    padding: 5px 0;
     margin-bottom: 5px;
   }
 
-  .btn-article{ width: 45%;}
+  .btn-article{ 
+    width: 65%;
+    padding: 10px 0;
+  }
 
   .input-fname {
-    width: 92%;
+    display: block;
     padding: 0;
     margin:10px 0 ;
   }
@@ -993,16 +1042,20 @@ input::placeholder {
   .contact {padding: 10px 0;}
 
   .contact-form { width: 100%;}
+
   .contact-info {
     width:100%;
     text-align: justify;
   }
 
-  .input-email {width: 92%;}
+  .input-email {display: block;}
   
   input { width: 100%;}
 
   input[type=button]{width: 50%;}
+
+  .txtarea { width: 100%;}
+  textarea{ width: 96%;}
 
   .btn-form {
     text-align: center;
